@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Jolly+Lodger&display=swap');
+
+body {
+    margin: 0;
+	font: 18px 'Jolly Lodger', cursive;
+}
+
+#pumpkins {
+	font-family: 'Eater', cursive;
+} 
+
+div {
+    width: 80vw;
+    margin: 0 auto
+}
+
+main{
+    height: 100vh;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 2vw;
+}
+
+nav a{
+    font-size: calc(10px + 1.5vw);
+}
+
+img{
+    max-width: 100%;
+    max-height: 600px;
+}
+
+#pumpkins img{
+    max-width: 30%;
+    max-height: 400px;
+}
+
+main{
+    height: 100vh;
+    padding: 3vw;
+}
+
+nav  { 
+    background: #e8d8c0; 
+}
+
+main { 
+    background: #f6f1ea; 
+}
+
+#pumpkins nav  { 
+    background: #f1a842; 
+}
+
+#pumpkins main { 
+    background: #2a1940; color: #ffffff; 
+}
