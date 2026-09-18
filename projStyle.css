@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-	font: 18px 'Jolly Lodger', cursive;
+	font: calc(2px + 1.2vw) 'Jolly Lodger', cursive;
 }
 
 #pumpkins {
@@ -61,4 +61,38 @@ main {
 
 #pumpkins main { 
     background: #2a1940; color: #ffffff; 
+}
+
+#scaryButton {
+    height: auto;
+    width: 5vw;
+    margin-top: 5px;
+}
+
+#evilCat {
+    display: none;
+}
+
+#buttonPageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#cuteMain {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    & h1{
+        margin-top: 0px;
+        margin-bottom: 2px;
+    }
+}
+   
+
+@media screen and (min-width: 1001px) {
+    nav li{
+        display: block;
+    }
 }
